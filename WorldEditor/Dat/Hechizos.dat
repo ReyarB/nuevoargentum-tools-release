@@ -12,7 +12,7 @@
 '4.....Terreno.
 
 [INIT]
-NumeroHechizos=47
+NumeroHechizos=48
 
 
 [HECHIZO1]
@@ -2979,3 +2979,67 @@ itemindex=0
 StaffAffected=0
 NeedStaff=0
 Resis=0
+
+[HECHIZO48]
+Nombre=Congelar
+Desc=Este sortilegio provocará que la víctima pierda momentáneamente velocidad.
+PalabrasMagicas=COYNC GAM GLÛ
+HechizeroMsg=Has lanzado congelar sobre 
+TargetMsg=ha lanzado congelar sobre ti.
+PropioMsg=Has lanzado congelar sobre ti.
+Tipo=2
+WAV=17
+FXgrh=38
+Loops=0
+MinSkill=1
+ManaRequerido=200
+StaRequerido=50
+Target=1
+SubeHP=0
+MinHP=0
+MaxHP=0
+SubeMana=0
+MinMana=0
+MaxMana=0
+SubeSta=0
+MinSta=0
+MaxSta=0
+SubeHam=0
+MinHam=0
+MaxHam=0
+SubeSed=0
+MinSed=0
+MaxSed=0
+SubeAG=0
+MinAG=0
+MaxAG=0
+SubeFU=0
+MinFU=0
+MaxFU=0
+SubeCA=0
+MinCA=0
+MaxCA=0
+Invisibilidad=0
+Paraliza=0
+Inmoviliza=0
+RemoverParalisis=0
+RemoverEstupidez=0
+RemueveInvisibilidadParcial=0
+CuraVeneno=0
+Envenena=0
+Revivir=0
+Ceguera=0
+Estupidez=0
+Invoca=0
+NumNpc=0
+Cant=0
+Mimetiza=0
+Materializa=0
+itemindex=0
+StaffAffected=0
+NeedStaff=0
+Resis=0
+Congelar=1
+
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+'&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&

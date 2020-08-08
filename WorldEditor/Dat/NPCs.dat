@@ -72,7 +72,7 @@ Actual Npc con Nro más alto: 610
 [INIT]
 'aca va el número de NPC más alto, NO la cantidad de NPCs.
 'esto sirve para que los GMS puedan ver la lista completa de npcs a invocar en una ventanita.
-NumNPCs=904
+NumNPCs=908
 
 [NPC150] 'Beta
 Name=Vende Beta
@@ -7076,8 +7076,8 @@ Comercia=0
 GiveEXP=2700
 GiveGLDMin=500
 GiveGLDMax=1500
-MinHP=2700
-MaxHP=2700
+MinHP=200
+MaxHP=200
 MaxHIT=250
 MinHIT=130
 DEF=35
@@ -7085,6 +7085,8 @@ DEFm=10
 PoderAtaque=220
 PoderEvasion=190
 BackUp=0
+NROITEMS=1
+Obj1=1074-1
 
 ############################################
 
@@ -8636,3 +8638,83 @@ Obj1=646-1
 Obj2=403-1
 AfectaParalisis=1
 BackUp=0
+
+############################################
+
+[NPC905] 'NPC
+Name=Caballo u
+NPCTYPE=11
+Head=0
+Heading=3
+Body=491
+Movement=2
+Alineacion=0
+ReSpawn=0
+MostrarNombre=1
+
+[NPC906] 'NPC
+Name=Caballo
+NPCTYPE=11
+Head=0
+Heading=3
+Body=510
+Movement=2
+Alineacion=0
+ReSpawn=0
+Domable=1
+MinHP=1000
+MaxHP=1000
+Attackable=1
+Snd1=56
+EquitandoBody=511
+
+
+
+############################################
+
+[NPC907]
+Name=Galeón de 
+NpcType=0
+Head=0
+Heading=3
+Body=86
+Movement=1
+AguaValida=1
+TierraInvalida=1
+Attackable=0
+ReSpawn=0
+Hostile=1
+Domable=0
+Alineacion=2
+Comercia=0
+GiveEXP=0
+GiveGLDMin=0
+MinHP=1
+MaxHP=1
+MaxHIT=250
+MinHIT=200
+DEF=0
+PoderAtaque=0
+PoderEvasion=0
+BackUp=0
+
+############################################
+
+
+[NPC908] 'NPC
+Name=Dragón del Mar
+NPCTYPE=11
+Head=0
+Heading=3
+Body=513
+Movement=2
+Alineacion=0
+ReSpawn=0
+Domable=1
+MinHP=200
+MaxHP=200
+Attackable=1
+AguaValida=1
+TierraInvalida=1
+Snd1=56
+EquitandoBody=512

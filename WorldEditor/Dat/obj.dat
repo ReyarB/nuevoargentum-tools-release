@@ -70,7 +70,7 @@ usar primero los nros más bajos.
 [INIT]
 'aca va el numero de OBJ mas alto, NO la cantidad de OBJs.
 'esto sirve para que los GMS puedan ver la lista completa de items para crear en una ventanita.
-NumOBJs=1070
+NumOBJs=1074
 
 
 
@@ -189,7 +189,7 @@ SkHerreria=10
 [OBJ10]
 Name=Cofre Abierto
 GrhIndex=502
-ObjType=7
+ObjType=38
 Agarrable=0
 Abierta=0
 Llave=0
@@ -12477,3 +12477,53 @@ Name=Baranda muelle
 GrhIndex=26411
 ObjType=35
 Agarrable=1
+
+[OBJ1071]
+Name=Congelar
+GrhIndex=609
+ObjType=24
+Agarrable=0
+Valor=100000
+Crucial=1
+HechizoIndex=48
+
+[OBJ1072] 
+Name=Poción Chiquitolina
+GrhIndex=26643
+ObjType=11
+Agarrable=0
+TipoPocion=7
+Valor=10
+Crucial=1
+
+[OBJ1073]
+Name=Bala de Cañon
+GrhIndex=26641
+ObjType=2
+Agarrable=0
+Anim=7
+Efecto=6
+Proyectil=1
+Municiones=0
+MinHit=8
+MaxHit=12
+Valor=1080
+Crucial=0
+CP1=MAGO
+CP2=DRUIDA
+Madera=450
+SkCarpinteria=40
+Upgrade=664
+CanUse=1
+HitArea=2
+
+
+[OBJ1074]
+Name=Mapa del Tesoro
+GrhIndex=609
+ObjType=37
+Agarrable=0
+Valor=0
+Crucial=1
+
+
