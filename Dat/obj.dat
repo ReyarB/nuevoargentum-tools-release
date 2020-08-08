@@ -70,7 +70,7 @@ usar primero los nros más bajos.
 [INIT]
 'aca va el numero de OBJ mas alto, NO la cantidad de OBJs.
 'esto sirve para que los GMS puedan ver la lista completa de items para crear en una ventanita.
-NumOBJs=1073
+NumOBJs=1074
 
 
 
@@ -189,7 +189,7 @@ SkHerreria=10
 [OBJ10]
 Name=Cofre Abierto
 GrhIndex=502
-ObjType=7
+ObjType=38
 Agarrable=0
 Abierta=0
 Llave=0
@@ -12516,3 +12516,14 @@ SkCarpinteria=40
 Upgrade=664
 CanUse=1
 HitArea=2
+
+
+[OBJ1074]
+Name=Mapa del Tesoro
+GrhIndex=609
+ObjType=37
+Agarrable=0
+Valor=0
+Crucial=1
+
+
